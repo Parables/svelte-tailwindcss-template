@@ -1,15 +1,13 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+*Creating projects just got easier...  Use my Project Bootstraper to get started with any project using a single command. Try it out here  --> [project-bootstraper](https://github.com/Parables/project-scaffolder)*
 
 ---
 
 # svelte app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
-
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
+npx degit parables/svelte-tailwindcss-template <yourProjectName>
 cd svelte-app
 ```
 
