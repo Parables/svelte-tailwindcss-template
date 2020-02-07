@@ -1,8 +1,8 @@
-*Creating projects just got easier...  Use my Project Bootstraper to get started with any project using a single command. Try it out here  --> [project-bootstraper](https://github.com/Parables/project-scaffolder)*
-
+#### If you want to choose what gets included in your project, I suggest you use my Project Scaffolder which can create starter templates for popular frameworks like  Angular, React, React, Vue, Svelte, Flutter, React-Native etc. Try it out here  --> [Project Scaffolder: Create templates with Just one command ](https://github.com/Parables/project-scaffolder)   .
 ---
 
-# svelte app
+
+## Get started
 
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
@@ -11,15 +11,13 @@ npx degit parables/svelte-tailwindcss-template <yourProjectName>
 cd svelte-app
 ```
 
+Install the dependencies...
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
 
-## Get started
 
-Install the dependencies...
 
 ```bash
-cd svelte-app
 npm install
 ```
 
@@ -29,9 +27,9 @@ npm install
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it to see your changes.
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+
 
 
 ## Building and running in production mode
